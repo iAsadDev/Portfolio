@@ -66,7 +66,7 @@ const Hero = () => {
                   Get In Touch
                 </a>
                 <a
-                  href="/Asad Qayyum .pdf"
+                  href="/Asad_Qayyum.pdf"
                   download
                   className="px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300"
                 >
