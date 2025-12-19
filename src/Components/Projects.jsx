@@ -7,7 +7,7 @@ import Job from "../assets/job.png";
 import kitchen from "../assets/ss.png"; 
 import Burger from "../assets/burger.png";
 import port from "../assets/port.png";
-
+import CCAIMG from "../assets/CCAIMG.png"
 const projects = [
   {
     id: 1,
@@ -35,6 +35,19 @@ const projects = [
     difficulty: 80,
     impact: 85
   },
+    {
+    id: 4,
+    title: "Cadet College Website",
+    type: "WORDPRESS PROJECT",
+    description: "A WordPress-based project for Cadet College Academy showcasing courses, events, and information.",
+    tech: ["WORDPRESS", "PHP", "HTML", "CSS", "JS"],
+    github: "", // leave empty if no GitHub repo
+    live: "https://cca.edu.pk/",
+    image: CCAIMG, // make sure you have imported your WordPress project image
+    level: "PRO",
+    difficulty: 70,
+    impact: 85
+},
   {
     id: 3,
     title: "BURGERHUB",
@@ -49,7 +62,7 @@ const projects = [
     impact: 80
   },
   {
-    id: 4,
+    id: 5,
     title: "PORTFOLIO",
     type: "DEVELOPER SHOWCASE",
     description: "Interactive portfolio with animations & dark mode",
@@ -61,7 +74,10 @@ const projects = [
     difficulty: 70,
     impact: 95
   }
-];
+  ,
+
+
+]
 
 // Memoized Background Components
 const BackgroundGrid = () => (
